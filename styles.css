@@ -12,12 +12,23 @@ body {
 
 .box {
   position: absolute;
+  top: 0.7em;
+  right: 1em;
   width: 40%;
+  height: 7.5em;
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 43em 25% 20em 25%;
-  border-radius: 20px 20px;
-  padding: 2em 4em;
-  font-size: 1.3em;
+  border-radius: 10px 10px;
+  padding: 0em 0.3em;
+  font-size: 1.1em;
+}
+
+.box h3 {
+  font-size: 1em;
+  line-height: 1;
+}
+
+.box p {
+  font-size: 0.7em;
 }
 
 h1, h2, h3, h4, h5, h6 {
